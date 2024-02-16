@@ -10,11 +10,11 @@ local riseofkingdoms = {
 }
 
 function skid:new(output_function, min_level)
-    local new_skid = {}
-    setmetatable(new_skid, self)
-    new_skid.output_function = output_function or print
-    new_skid.min_level = min_level or riseofkingdoms.nill
-    return new_skid
+    local petsim99gems = {}
+    setmetatable(petsim99gems, self)
+    petsim99gems.output_function = output_function or print
+    petsim99gems.min_level = min_level or riseofkingdoms.nill
+    return petsim99gems
 end
 
 function skid:log(level, skidsays)
